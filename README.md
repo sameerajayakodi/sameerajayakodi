@@ -10,11 +10,7 @@ I'm a Computer Science undergraduate passionate about  Machine learning, web dev
 ![Git](https://img.shields.io/badge/-Git-333?style=flat-square&logo=git)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-333?style=flat-square&logo=visual-studio-code)
 
-## 📊 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&hide_border=true&count_private=true&theme=default)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&hide_border=true&theme=default)
 
 ## 📁 Projects
 
@@ -29,7 +25,7 @@ Brief description of your project.
 
 ## 📫 Contact Me
 
-- **Email**: (mailto:sameerajayakodi456@gmail.com)
+- **Email**: [your.sameerajayakodi456@gmail.com](mailto:your.sameerajayakodi456@gmail.com)
 - **LinkedIn**: ([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/sameera-jayakodi-6a3a81226/))
 
 
