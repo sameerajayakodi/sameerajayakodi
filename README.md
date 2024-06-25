@@ -15,12 +15,11 @@ I'm a Computer Science undergraduate passionate about  Machine learning, web dev
 ## 📁 Projects
 
 
-### ### [Project 1/ECommerce Web Project Using J2EE](https://github.com/sameerajayakodi/ECommerce-Web-Project-final)
-Brief description of your project.
+### [Project 1/ECommerce Web Project Using J2EE](https://github.com/sameerajayakodi/ECommerce-Web-Project-final)
 
-### [Project 3](https://github.com/yourusername/project3)
-Brief description of your project.
+### [Project 2/Nike Site Using Tailwind CSS](https://github.com/sameerajayakodi/Nike_Tailwind)
 
+### [Project 2/User Management System Using PHP](https://github.com/sameerajayakodi/UMS---Java-Web/tree/main/UMS)
 
 
 ## 📫 Contact Me
