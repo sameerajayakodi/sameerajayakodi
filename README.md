@@ -1,6 +1,6 @@
 # Hi there, I'm [Your Name] 👋
 
-![Your Banner Image](https://example.com/your-banner-image.jpg)
+![Your Banner Image]([https://example.com/your-banner-image.jpg](https://unsplash.com/photos/group-of-people-using-laptop-computer-QckxruozjRg))
 
 Welcome to my GitHub profile! I'm a Computer Science undergraduate passionate about [your interests, e.g., machine learning, web development, open source].
 
