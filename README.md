@@ -23,7 +23,7 @@ I'm a Computer Science undergraduate passionate about  Machine learning, web dev
 
 ### [Project 2/Nike Site Using Tailwind CSS](https://github.com/sameerajayakodi/Nike_Tailwind)
 
-### [Project 2/User Management System Using PHP](https://github.com/sameerajayakodi/UMS---Java-Web/tree/main/UMS)
+### [Project 3/User Management System Using PHP](https://github.com/sameerajayakodi/UMS---Java-Web/tree/main/UMS)
 
 
 ## 📫 Contact Me
@@ -36,7 +36,7 @@ I'm a Computer Science undergraduate passionate about  Machine learning, web dev
 
 I'm always open to collaborating on interesting projects and ideas. Feel free to reach out!
 
-![Visitor Badge](https://visitor-badge.glitch.me/badge?page_id=yourusername.yourusername)
+![Visitor Badge](https://visitor-badge.glitch.me/badge?page_id=sameerajayakodi.sameerajayakodi)
 
 ---
 
