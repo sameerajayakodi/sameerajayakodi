@@ -28,7 +28,7 @@ I'm a Computer Science undergraduate passionate about  Machine learning, web dev
 
 ## 📫 Contact Me
 
-- **Email**: ([sameerajayakodi456@gmail.com](mailto:sameerajayakodi456@gmail.com))
+- **Email**: [sameerajayakodi456@gmail.com](mailto:sameerajayakodi456@gmail.com)
 - **LinkedIn**: ([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/sameera-jayakodi-6a3a81226/))
 
 
