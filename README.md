@@ -31,7 +31,7 @@ Brief description of your project.
 
 ## 📫 Contact Me
 
-- **Email**: (mailto:your.sameerajayakodi456@gmail.com)
+- **Email**: (mailto:sameerajayakodi456@gmail.com)
 - **LinkedIn**: ([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/sameera-jayakodi-6a3a81226/))
 
 
