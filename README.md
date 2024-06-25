@@ -1,43 +1,41 @@
-# Hi there, I'm [Your Name] 👋
+# Hi there, I'm Sameera Jayakodi 👋
 
-![Your Banner Image]([https://example.com/your-banner-image.jpg](https://unsplash.com/photos/group-of-people-using-laptop-computer-QckxruozjRg))
+I'm a Computer Science undergraduate passionate about  Machine learning, web development, open source
 
-Welcome to my GitHub profile! I'm a Computer Science undergraduate passionate about [your interests, e.g., machine learning, web development, open source].
+## 🛠 Technologies & Tools
 
-## 🔧 Technologies & Tools
+![Python](https://img.shields.io/badge/-Python-333?style=flat-square&logo=python)
+![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat-square&logo=javascript)
+![C++](https://img.shields.io/badge/-C++-333?style=flat-square&logo=cplusplus)
+![Git](https://img.shields.io/badge/-Git-333?style=flat-square&logo=git)
+![VS Code](https://img.shields.io/badge/-VS%20Code-333?style=flat-square&logo=visual-studio-code)
 
-![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python)
-![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript)
-![C++](https://img.shields.io/badge/-C++-333?style=flat&logo=cplusplus)
-![Git](https://img.shields.io/badge/-Git-333?style=flat&logo=git)
-![VS Code](https://img.shields.io/badge/-VS%20Code-333?style=flat&logo=visual-studio-code)
+## 📊 GitHub Stats
 
-## 📈 GitHub Stats
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&hide_border=true&count_private=true&theme=default)
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&hide_border=true&theme=default)
 
-## 📊 Most Used Languages
+## 📁 Projects
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
+### [Project 1](https://github.com/yourusername/project1)
+Brief description of your project.
 
-## 📚 Latest Projects
+### [Project 2](https://github.com/yourusername/project2)
+Brief description of your project.
 
-- [Project 1](https://github.com/yourusername/project1) - Brief description of your project.
-- [Project 2](https://github.com/yourusername/project2) - Brief description of your project.
-- [Project 3](https://github.com/yourusername/project3) - Brief description of your project.
+### [Project 3](https://github.com/yourusername/project3)
+Brief description of your project.
 
-## 📝 Blog Posts
 
-- [Post Title 1](https://yourblog.com/post1)
-- [Post Title 2](https://yourblog.com/post2)
 
-## 📫 How to reach me
+## 📫 Contact Me
 
-- Email: [your.email@example.com](mailto:your.email@example.com)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
+- **Email**: (mailto:your.sameerajayakodi456@gmail.com)
+- **LinkedIn**: ([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/sameera-jayakodi-6a3a81226/))
 
-## 🤝 Contributions
+
+## 🤝 Let's Collaborate
 
 I'm always open to collaborating on interesting projects and ideas. Feel free to reach out!
 
@@ -45,4 +43,4 @@ I'm always open to collaborating on interesting projects and ideas. Feel free to
 
 ---
 
-⭐️ From [yourusername](https://github.com/yourusername)
+⭐️ From (https://github.com/sameerajayakodi)
