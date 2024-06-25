@@ -3,12 +3,16 @@
 I'm a Computer Science undergraduate passionate about  Machine learning, web development, open source
 
 ## 🛠 Technologies & Tools
-
+![React](https://img.shields.io/badge/-React-333?style=flat-square&logo=react)
+![Java](https://img.shields.io/badge/-Java-333?style=flat-square&logo=java)
+![PHP](https://img.shields.io/badge/-PHP-333?style=flat-square&logo=php)
+![Angular](https://img.shields.io/badge/-Angular-333?style=flat-square&logo=angular)
 ![Python](https://img.shields.io/badge/-Python-333?style=flat-square&logo=python)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat-square&logo=javascript)
 ![C++](https://img.shields.io/badge/-C++-333?style=flat-square&logo=cplusplus)
+![React Native](https://img.shields.io/badge/-React%20Native-333?style=flat-square&logo=react)
+![SQL](https://img.shields.io/badge/-SQL-333?style=flat-square&logo=sql)
 ![Git](https://img.shields.io/badge/-Git-333?style=flat-square&logo=git)
-![VS Code](https://img.shields.io/badge/-VS%20Code-333?style=flat-square&logo=visual-studio-code)
 
 
 
