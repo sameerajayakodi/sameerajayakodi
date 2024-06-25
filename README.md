@@ -18,10 +18,8 @@ I'm a Computer Science undergraduate passionate about  Machine learning, web dev
 
 ## 📁 Projects
 
-### [Project 1]([https://github.com/yourusername/project1](https://github.com/sameerajayakodi/ECommerce-Web-Project-final))
-Brief description of your project.
 
-### [Project 2](https://github.com/yourusername/project2)
+### [Project 1](https://github.com/sameerajayakodi/ECommerce-Web-Project-final)
 Brief description of your project.
 
 ### [Project 3](https://github.com/yourusername/project3)
