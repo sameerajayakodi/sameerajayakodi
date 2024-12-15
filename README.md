@@ -38,7 +38,7 @@ I'm a Computer Science undergraduate passionate about  Machine learning, web dev
 
 I'm always open to collaborating on interesting projects and ideas. Feel free to reach out!
 
-![Visitor Badge](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/sameerajayakodi/sameerajayakodi&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false)
+
 
 
 ---
