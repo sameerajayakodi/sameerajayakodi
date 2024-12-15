@@ -1,6 +1,6 @@
-# Hi there, I'm Sameera Jayakodi 
+Sameera Jayakodi 
 
-I'm a Computer Science undergraduate passionate about  Machine learning, web development, open source
+I'm a Computer Science undergraduate passionate about Software Engineering, web development and Creative ideas.
 
 ## 🛠 Technologies & Tools
 ![React](https://img.shields.io/badge/-React-333?style=flat-square&logo=react)
