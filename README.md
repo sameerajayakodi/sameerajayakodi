@@ -1,4 +1,4 @@
-# Hi there, I'm Sameera Jayakodi 👋
+# Hi there, I'm Sameera Jayakodi 
 
 I'm a Computer Science undergraduate passionate about  Machine learning, web development, open source
 
