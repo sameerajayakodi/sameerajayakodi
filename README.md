@@ -24,7 +24,7 @@ I'm a Computer Science undergraduate passionate about Software Engineering, web 
 
 ### [Project 2/ECommerce Web Project Using J2EE](https://github.com/sameerajayakodi/ECommerce-Web-Project-final)
 
-### [Project 3/File System Utils / NPM Pakege](https://github.com/sameerajayakodi/file-system-utils)
+### [Project 3/File System Utils / NPM Pakage](https://github.com/sameerajayakodi/file-system-utils)
 
 ### [Project 4/Nike Site Using Tailwind CSS](https://github.com/sameerajayakodi/Nike_Tailwind)
 
