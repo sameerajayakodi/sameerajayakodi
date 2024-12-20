@@ -18,7 +18,7 @@ I'm a Computer Science undergraduate passionate about Software Engineering, web 
 
 ## 📁 Projects
 
-### [Project 1/AuctionHouse Action Management System Using React JS](https://github.com/sameerajayakodi/Auction_System/tree/main/AuctionHouse/auction-management-frontend)
+### [Project 1/AuctionHouse Auction Management System Using React JS](https://github.com/sameerajayakodi/Auction_System/tree/main/AuctionHouse/auction-management-frontend)
 
 ### [Project 1/HopeLink Charity Campaign System Using React JS](https://github.com/sameerajayakodi/hopelink_charity_campaign)
 
