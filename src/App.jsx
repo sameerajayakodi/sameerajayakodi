@@ -1,6 +1,8 @@
 import { useState } from "react";
+import govimart from "./assets/govimart.png";
+import hirelink from "./assets/hirelink.png";
 import profileImage from "./assets/profile.jpg";
-<assets />;
+import "./index.css";
 const App = () => {
   const [activeFile, setActiveFile] = useState("about.js");
   const [terminalOpen, setTerminalOpen] = useState(false);
@@ -50,6 +52,7 @@ const App = () => {
         "Multi-role platform for job seekers, employers, and trainers with AI-powered features.",
       tech: ["React", "Spring Boot", "MySQL", "AWS", "Gemini API"],
       link: "https://github.com/sameerajayakodi/hirelink-client",
+      image: hirelink,
     },
     {
       name: "GoviMart – Grocery Delivery App",
@@ -57,6 +60,7 @@ const App = () => {
         "Full-stack grocery delivery web application with dashboards and Stripe integration.",
       tech: ["React", "Node.js", "MongoDB", "Stripe"],
       link: "https://github.com/sameerajayakodi/govimart-client",
+      image: govimart,
     },
     {
       name: "Torva – Treasure Hunt Mobile App",
@@ -64,6 +68,7 @@ const App = () => {
         "Cross-platform mobile game with GPS treasure hunts and Firebase backend.",
       tech: ["Flutter", "Firebase", "Google Maps API"],
       link: "https://github.com/sameerajayakodi/Torva",
+      image: "/images/torva.png",
     },
   ];
 
@@ -203,11 +208,11 @@ Full-stack developer experienced in MERN and Spring Boot. Explore my projects an
   const currentFile = fileContents[activeFile];
 
   return (
-    <div className="h-screen bg-gray-900 text-gray-300 font-mono flex flex-col relative">
+    <div className="h-screen bg-gray-900 text-gray-300 font-mono flex flex-col relative hide-scrollbar">
       {/* Guide popup */}
       {showGuide && !showVisualPortfolio && (
-        <div className="absolute top-3 left-3 bg-green-600 text-white px-4 py-2 rounded shadow-lg animate-bounce z-20">
-          👉 Click the green RUN button to view portfolio
+        <div className="absolute bottom-3 left-3 bg-green-600 text-white px-2 py-1 rounded shadow-lg animate-bounce z-20">
+          Click the green RUN button to view portfolio
         </div>
       )}
 
@@ -245,9 +250,9 @@ Full-stack developer experienced in MERN and Spring Boot. Explore my projects an
       {!showVisualPortfolio ? (
         <>
           {/* Code Editor View */}
-          <div className="flex flex-1 overflow-hidden">
+          <div className="flex flex-1 ">
             {/* Activity Bar */}
-            <div className="w-12 bg-gray-800 flex flex-col items-center py-2 border-r border-gray-700">
+            <div className="w-12 bg-gray-800 flex flex-col items-center py-2 border-r border-gray-700 ">
               {/* Explorer toggle */}
               <div
                 className={`w-8 h-8 my-1 flex items-center justify-center cursor-pointer rounded hover:bg-gray-700 ${
@@ -328,9 +333,9 @@ Full-stack developer experienced in MERN and Spring Boot. Explore my projects an
       ) : (
         <>
           {/* Visual Portfolio */}
-          <div className="p-6 overflow-auto flex-1">
+          <div className="p-6 overflow-auto flex-1 hide-scrollbar ">
             {/* Profile Header */}
-            <div className="flex items-center gap-6 mb-6">
+            <div className="flex items-center gap-6 mb-6 ">
               <img
                 src={profileImage}
                 alt="Profile"
@@ -349,28 +354,43 @@ Full-stack developer experienced in MERN and Spring Boot. Explore my projects an
 
             {/* Skills Section */}
             <h2 className="text-xl text-white mt-6 mb-3">Skills</h2>
-            <div className="flex flex-wrap gap-2">
-              {Object.values(skills)
-                .flat()
-                .map((skill, i) => (
-                  <span
-                    key={i}
-                    className="bg-blue-700 px-3 py-1 rounded-full text-sm"
-                  >
-                    {skill}
-                  </span>
-                ))}
+            <div className="overflow-hidden w-full">
+              <div className="scroll-right-to-left">
+                {/* First set of skills */}
+                {Object.values(skills)
+                  .flat()
+                  .map((skill, i) => (
+                    <span
+                      key={`skill1-${i}`}
+                      className="bg-blue-700 px-3 py-1 rounded-full text-sm inline-block mr-3"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+
+                {/* Duplicate set of skills for seamless looping */}
+                {Object.values(skills)
+                  .flat()
+                  .map((skill, i) => (
+                    <span
+                      key={`skill2-${i}`}
+                      className="bg-blue-700 px-3 py-1 rounded-full text-sm inline-block mr-3"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+              </div>
             </div>
 
             {/* Projects Section */}
             <h2 className="text-xl text-white mt-6 mb-3">Projects</h2>
-            <div className="grid md:grid-cols-2 gap-4">
+            <div className="grid md:grid-cols-2 gap-4 ">
               {projects.map((p, i) => (
                 <div
                   key={i}
-                  className="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg flex items-center justify-between"
+                  className="bg-gray-800 rounded-xl shadow hover:shadow-lg flex items-center justify-between"
                 >
-                  <div className="flex-1 pr-3">
+                  <div className="flex-1  p-4 ">
                     <h3 className="text-lg text-blue-400">{p.name}</h3>
                     <p className="text-gray-300 text-sm mt-1">
                       {p.description}
@@ -387,9 +407,9 @@ Full-stack developer experienced in MERN and Spring Boot. Explore my projects an
                     </a>
                   </div>
                   <img
-                    src={`/images/project-${i + 1}.png`}
+                    src={p.image}
                     alt={p.name}
-                    className="w-24 h-24 object-cover rounded border border-gray-600"
+                    className="w-36 h-full object-cover rounded-r-xl "
                   />
                 </div>
               ))}

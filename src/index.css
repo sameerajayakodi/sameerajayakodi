@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+/* Hide scrollbar for all browsers */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+@keyframes scrollRightToLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-right-to-left {
+  display: flex;
+  white-space: nowrap;
+  animation: scrollRightToLeft 40s linear infinite;
+}
