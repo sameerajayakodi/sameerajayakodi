@@ -1,6 +1,11 @@
 import { useState } from "react";
-import govimart from "./assets/govimart.png";
-import hirelink from "./assets/hirelink.png";
+import {
+  aboutMe,
+  fileContents,
+  files,
+  projects,
+  skills,
+} from "./assets/assets.js";
 import profileImage from "./assets/profile.jpg";
 import "./index.css";
 const App = () => {
@@ -22,110 +27,6 @@ const App = () => {
     { type: "output", text: "✓ Portfolio compiled successfully!" },
     { type: "cursor", prompt: "portfolio@dev:~$", text: "_" },
   ]);
-
-  // ----------------------
-  // CV DATA
-  // ----------------------
-  const aboutMe = {
-    name: "Sameera Jayakodi",
-    title: "Full Stack Developer | React & Node.js",
-    summary:
-      "Computer Science undergraduate skilled in MERN stack, Spring Boot, and cloud deployments. Experienced in delivering full-stack projects like GoviMart and HireLink with AI integrations.",
-    location: "Homagama, Sri Lanka",
-    email: "sameerajayakodi456@gmail.com",
-    github: "https://github.com/sameerajayakodi",
-    linkedin: "https://linkedin.com/in/sameera-jayakodi-6a3a81226/",
-  };
-
-  const skills = {
-    languages: ["JavaScript", "Java", "Python", "SQL", "Dart"],
-    frontend: ["React.js", "React Native", "Tailwind CSS", "Figma"],
-    backend: ["Node.js", "Express.js", "Spring Boot", "ASP.NET Core", "PHP"],
-    databases: ["MySQL", "MongoDB", "SQL Server"],
-    tools: ["GitHub", "AWS", "Vercel", "JWT", "Cloudinary"],
-  };
-
-  const projects = [
-    {
-      name: "HireLink – AI Job Platform",
-      description:
-        "Multi-role platform for job seekers, employers, and trainers with AI-powered features.",
-      tech: ["React", "Spring Boot", "MySQL", "AWS", "Gemini API"],
-      link: "https://github.com/sameerajayakodi/hirelink-client",
-      image: hirelink,
-    },
-    {
-      name: "GoviMart – Grocery Delivery App",
-      description:
-        "Full-stack grocery delivery web application with dashboards and Stripe integration.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
-      link: "https://github.com/sameerajayakodi/govimart-client",
-      image: govimart,
-    },
-    {
-      name: "Torva – Treasure Hunt Mobile App",
-      description:
-        "Cross-platform mobile game with GPS treasure hunts and Firebase backend.",
-      tech: ["Flutter", "Firebase", "Google Maps API"],
-      link: "https://github.com/sameerajayakodi/Torva",
-      image: "/images/torva.png",
-    },
-  ];
-
-  // ----------------------
-  // FILE CONTENTS
-  // ----------------------
-  const fileContents = {
-    "about.js": {
-      content: `// About Me
-class Developer {
-  constructor() {
-    this.name = "${aboutMe.name}";
-    this.title = "${aboutMe.title}";
-    this.location = "${aboutMe.location}";
-    this.email = "${aboutMe.email}";
-  }
-
-  getSummary() {
-    return "${aboutMe.summary}";
-  }
-}
-
-const me = new Developer();
-console.log(me.getSummary());`,
-      language: "javascript",
-    },
-    "skills.json": {
-      content: JSON.stringify(skills, null, 2),
-      language: "json",
-    },
-    "projects.html": {
-      content: projects
-        .map(
-          (p) =>
-            `<div class="project">
-  <h3>${p.name}</h3>
-  <p>${p.description}</p>
-  <p><b>Tech:</b> ${p.tech.join(", ")}</p>
-</div>`
-        )
-        .join("\n\n"),
-      language: "html",
-    },
-    "README.md": {
-      content: `# Sameera Jayakodi Portfolio
-
-Full-stack developer experienced in MERN and Spring Boot. Explore my projects and skills below.`,
-      language: "markdown",
-    },
-  };
-
-  const files = [
-    { name: "about.js", icon: "🟨", type: "javascript" },
-    { name: "skills.json", icon: "🟧", type: "json" },
-    { name: "projects.html", icon: "🟥", type: "html" },
-    { name: "README.md", icon: "⬜", type: "markdown" },
-  ];
 
   // Syntax highlighting
   const highlightSyntax = (code, language) => {
@@ -362,7 +263,7 @@ Full-stack developer experienced in MERN and Spring Boot. Explore my projects an
                   .map((skill, i) => (
                     <span
                       key={`skill1-${i}`}
-                      className="bg-blue-700 px-3 py-1 rounded-full text-sm inline-block mr-3"
+                      className="bg-white px-3 border border-blue-600 py-1 text-black rounded-full text-sm inline-block mr-3"
                     >
                       {skill}
                     </span>
@@ -374,7 +275,7 @@ Full-stack developer experienced in MERN and Spring Boot. Explore my projects an
                   .map((skill, i) => (
                     <span
                       key={`skill2-${i}`}
-                      className="bg-blue-700 px-3 py-1 rounded-full text-sm inline-block mr-3"
+                      className="bg-white px-3  py-1 text-black rounded-full text-sm inline-block mr-3"
                     >
                       {skill}
                     </span>
@@ -384,7 +285,7 @@ Full-stack developer experienced in MERN and Spring Boot. Explore my projects an
 
             {/* Projects Section */}
             <h2 className="text-xl text-white mt-6 mb-3">Projects</h2>
-            <div className="grid md:grid-cols-2 gap-4 ">
+            <div className="grid md:grid-cols-1 gap-4 ">
               {projects.map((p, i) => (
                 <div
                   key={i}
@@ -409,7 +310,7 @@ Full-stack developer experienced in MERN and Spring Boot. Explore my projects an
                   <img
                     src={p.image}
                     alt={p.name}
-                    className="w-36 h-full object-cover rounded-r-xl "
+                    className="w-90 h-full object-cover rounded-r-xl "
                   />
                 </div>
               ))}
