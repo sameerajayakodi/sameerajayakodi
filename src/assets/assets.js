@@ -4,7 +4,7 @@ import hireLink from "./hireLink.png";
 import hireSphere from "./hireSphere.png";
 import homomorphic101 from "./homomorphic101.png";
 import kittyCare from "./kittyCare.png";
-import knucklesView from "./knucklesView.png";
+import knucklesView from "./knucklesview.png";
 import prescriptionSystem from "./prescriptionManagement.png";
 import torva from "./torva.jpeg";
 
