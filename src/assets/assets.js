@@ -1,5 +1,6 @@
 import auctionHouse from "./auctionHouse.jpeg";
 import govimart from "./govimart.png";
+import hireLink from "./hireLink.png";
 import hireSphere from "./hireSphere.png";
 import homomorphic101 from "./homomorphic101.png";
 import kittyCare from "./kittyCare.png";
@@ -37,7 +38,7 @@ export const projects = [
       "Multi-role platform for job seekers, employers, and trainers with AI-powered features.",
     tech: ["React", "Spring Boot", "MySQL", "AWS", "Gemini API"],
     link: "https://github.com/sameerajayakodi/hirelink-client",
-    image: hireSphere,
+    image: hireLink,
   },
   {
     name: "GoviMart – Grocery Delivery App",

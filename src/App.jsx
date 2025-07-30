@@ -109,7 +109,7 @@ const App = () => {
   const currentFile = fileContents[activeFile];
 
   return (
-    <div className="h-screen bg-gray-900 text-gray-300 font-mono flex flex-col relative hide-scrollbar">
+    <div className="h-screen bg-gray-900 text-gray-300 font-sans flex flex-col relative hide-scrollbar">
       {/* Guide popup */}
       {showGuide && !showVisualPortfolio && (
         <div className="absolute bottom-3 left-3 bg-green-600 text-white px-2 py-1 rounded shadow-lg animate-bounce z-20">
@@ -234,25 +234,48 @@ const App = () => {
       ) : (
         <>
           {/* Visual Portfolio */}
-          <div className="p-6 overflow-auto flex-1 hide-scrollbar ">
+          <div className="p-6 overflow-auto  flex-1 hide-scrollbar ">
             {/* Profile Header */}
-            <div className="flex items-center gap-6 mb-6 ">
-              <img
-                src={profileImage}
-                alt="Profile"
-                className="w-20 h-20 rounded-full border-2 border-blue-500 shadow-lg object-cover"
-              />
-              <div>
-                <h1 className="text-3xl text-white font-bold">
-                  {aboutMe.name}
-                </h1>
-                <p className="text-gray-400">{aboutMe.title}</p>
-                <p className="text-sm text-gray-500">{aboutMe.location}</p>
+            <div className="flex items-center justify-between gap-6 mb-6">
+              {/* Profile Section */}
+              <div className="flex items-center gap-6">
+                <img
+                  src={profileImage}
+                  alt="Profile"
+                  className="w-20 h-20 rounded-full border-2 border-blue-500 shadow-lg object-cover"
+                />
+                <div>
+                  <h1 className="text-3xl text-white font-bold">
+                    {aboutMe.name}
+                  </h1>
+                  <p className="text-gray-400">{aboutMe.title}</p>
+                  <p className="text-sm text-gray-500">{aboutMe.location}</p>
+                </div>
               </div>
+
+              {/* Download Button */}
+              <a
+                href="/Sameera_Jayakodi_CV.pdf"
+                download="Sameera_Jayakodi_CV.pdf"
+              >
+                <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full shadow flex items-center gap-2">
+                  Download Resume
+                </button>
+              </a>
             </div>
 
             <p className="text-gray-400 mb-6">{aboutMe.summary}</p>
-
+            {/* Experience Section */}
+            <h2 className="text-xl text-white mt-6 mb-3">Experience</h2>
+            <div className="bg-gray-800 rounded-xl shadow p-4 mb-4">
+              <h3 className="text-lg text-blue-400">
+                Wemixt Software Company – Remote
+              </h3>
+              <p className="text-gray-400 text-sm">Feb 2025 – May 2025</p>
+              <ul className="list-inside text-gray-300 text-sm mt-2 space-y-1">
+                <li>Freelance Developer</li>
+              </ul>
+            </div>
             {/* Skills Section */}
             <h2 className="text-xl text-white mt-6 mb-3">Skills</h2>
             <div className="overflow-hidden w-full">
@@ -263,7 +286,7 @@ const App = () => {
                   .map((skill, i) => (
                     <span
                       key={`skill1-${i}`}
-                      className="bg-white px-3 border border-blue-600 py-1 text-black rounded-full text-sm inline-block mr-3"
+                      className="bg-blue-600 px-3 text-white py-1 rounded-full text-sm inline-block mr-3"
                     >
                       {skill}
                     </span>
@@ -275,7 +298,7 @@ const App = () => {
                   .map((skill, i) => (
                     <span
                       key={`skill2-${i}`}
-                      className="bg-white px-3  py-1 text-black rounded-full text-sm inline-block mr-3"
+                      className="bg-blue-600 px-3 text-white  py-1 rounded-full text-sm inline-block mr-3"
                     >
                       {skill}
                     </span>
@@ -285,7 +308,7 @@ const App = () => {
 
             {/* Projects Section */}
             <h2 className="text-xl text-white mt-6 mb-3">Projects</h2>
-            <div className="grid md:grid-cols-1 gap-4 ">
+            <div className="grid md:grid-cols-2 gap-10 ">
               {projects.map((p, i) => (
                 <div
                   key={i}
